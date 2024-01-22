@@ -1,0 +1,9 @@
+@media screen and (max-width:524px){
+    .res{
+        display: flex;
+        flex-direction: column;
+    }
+    .a{
+        font-size: 10px;
+    }
+}

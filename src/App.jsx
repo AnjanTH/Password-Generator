@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from "react";
-
+import './App.css'
 function App() {
   const [button ,setButton]=useState("Copy");
   const [length, setLength] = useState(5);
@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <div className=" p-3   w-full max-w-md mx-auto shadow-md rounded-lg px-3 my-8 text-orange-500 bg-gray-700">
-        <h1 className="text-white text-4xl text-center my-3 mb-5 mt-5">
+        <h1 className="text-white text-4xl text-center my-3 mb-5 mt-5 a">
           Password Generator
         </h1>
         <div className=" flex shadow rounded-lg overflow-hidden mb-4">
@@ -56,7 +56,7 @@ function App() {
             {button}
           </button>
         </div>
-        <div className=" flex text-sm gap-x-3 p-3">
+        <div className=" flex text-sm gap-x-3 p-3 res">
           <div className=" flex items-center gap-x-1">
             <input
               type="range"
